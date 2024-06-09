@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply flex flex-col items-center justify-center bg-neutral-200 gap-2;
+}
+
+.head{
+    @apply w-11/12 h-20 rounded-lg shadow-lg bg-zinc-100 flex flex-row items-center
+    justify-between px-4;
+}
+
+.main{
+    @apply w-11/12 h-full rounded-lg shadow-lg bg-zinc-50 flex flex-col
+    items-center justify-center gap-2;
+}
+
+
+
+
+
+.text_m{
+    @apply text-pretty text-2xl font-bold text-blue-800;
+}
+.gen_div{
+    @apply flex flex-row gap-2 w-full items-center justify-center;
+}
+.my_div{
+    @apply basis-1/4 bg-blue-800 m-2 rounded-lg p-2 flex justify-items-center
+    hover:bg-blue-50 border border-t-4 border-blue-50 rounded-xl shadow-xl
+    transition delay-150 duration-300;
+}

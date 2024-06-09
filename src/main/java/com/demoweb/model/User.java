@@ -1,2 +1,4 @@
-package com.demoweb.model;public class User {
+package com.demoweb.model;
+
+public class User {
 }
